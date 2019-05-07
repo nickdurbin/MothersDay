@@ -64,22 +64,22 @@ body {
 
 /* The hero image */
 .img-container {
-background-image: url("/resources/hero.jpg");
-height: 70%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  background-image: url("/resources/hero.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Place text in the middle of the image */
 .inner-container {
-text-align: center;
-position: absolute;
-width: 100%
-height: auto;
-color: white;
-margin-top: 200px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  color: white;
+  margin-top: 200px;
 }
 
 h1 {
@@ -106,8 +106,8 @@ button {
   width: 200px;
   font-weight: bold;
   padding: 10px;
-  color: #fff;
-  border: 4px solid #fff;
+  color: white;
+  border: 4px solid pink;
   text-align: center;
   outline: none;
   text-decoration: none;
@@ -116,7 +116,7 @@ button {
 
 .btn:hover, .btn:active {
   background-color: #fff;
-  color: #000;
+  color: pink;
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
