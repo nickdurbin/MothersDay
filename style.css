@@ -63,7 +63,7 @@ body {
 
 /* The hero image */
 .img-container {
-  background-image: url("hero4.jpg");
+  background-image: url("/resources/hero4.jpg");
   height: 70%;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,7 +84,9 @@ body {
 h1 {
   font-size: 5em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-shadow: 1em;
 }
+
 
 h2 {
   margin-top: 25px;
