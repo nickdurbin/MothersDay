@@ -53,7 +53,7 @@ body {
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
-    display: block;
+    display: flex;
     text-align: left;
   }
   .header-right {
@@ -65,8 +65,11 @@ body {
 .img-container {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-image: url("/resources/hero4.jpg");
   height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,12 +79,11 @@ body {
 .inner-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
   width: 100%;
   height: auto;
   color: white;
   margin-top: 40px;
+  text-align: center;
 }
 
 h1 {
@@ -103,10 +105,10 @@ h2 {
 button {
   font-size: 1.3em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.btn {
-  display: inline-block;
+  display: inline-flexbox;
+  align-self: center;
+  float: bottom;
+  margin: 60px;
   width: 200px;
   font-weight: bold;
   padding: 10px;
@@ -115,7 +117,7 @@ button {
   text-align: center;
   outline: none;
   text-decoration: none;
-  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  transition: background-color 0.1s ease-out, color 0.1s ease-out;
 }
 
 .btn:hover, .btn:active {
@@ -141,3 +143,4 @@ button {
     font-size: 1.4em;
   }
 }
+
