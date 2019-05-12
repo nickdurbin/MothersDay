@@ -1,6 +1,15 @@
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  height: 100px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   padding: 0 4px;
 }
 
@@ -8,6 +17,7 @@
 .column {
   flex: 25%;
   max-width: 25%;
+  flex-flow: column wrap;
   padding: 0 4px;
 }
 
