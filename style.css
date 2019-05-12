@@ -1,14 +1,22 @@
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: url("/resources/hero4.jpg") no-repeat center center fixed;
+  background-size: cover;
   height: 100%;
+  overflow: hidden;
 }
 
 body {
   width: 100%;
+  max-height: auto;
 }
 
 .header {
-  height: 2rem;
+  height: 5rem;
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
@@ -67,7 +75,6 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url("/resources/hero4.jpg");
   height: 100%;
   width: 100%;
   background-position: center;
