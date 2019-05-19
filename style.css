@@ -38,11 +38,12 @@ body {
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
+  color: white;
 }
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
+  background-color: pink;
   color: white;
 }
 
